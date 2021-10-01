@@ -126,7 +126,11 @@ if var < 50:
     exit(1)
 
 # filename = "adhar_card.jpg"
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+# for window
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract' 
+
+# for mac use brew
+pytesseract.pytesseract.tesseract_cmd = r'/usr/local/Cellar/tesseract/4.1.1/bin/tesseract'
 text = pytesseract.image_to_string(Image.open(filename), lang = 'eng')
 
 text_output = open('output.txt', 'w', encoding='utf-8')
