@@ -1,7 +1,7 @@
 # aadhar_extractor_ocr
  
  
- #this use step for windows
+ <b style="font-size:20px">this use step for windows</b>
  
  
 1st step is 
@@ -35,7 +35,7 @@ Press Enter To EXIT
 
 
 
- <b>this use step for Mac</b>
+ <b style="font-size:20px">this use step for Mac</b>
  
  1st step is 
 
